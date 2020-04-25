@@ -1,13 +1,11 @@
-- Topic 1
+- CSS Responsive Design
 
-  - [Introduction](ssh/intro_ssh.md)
-  - [Internals](ssh/internals_ssh.md)
-  - [Practice](ssh/practice_ssh.md)
+  - [Media Queries](media_queries/media.md)
+  - [rem & vh units](units/rem_vh.md)
 
-- Topic 2
+- Intermediate
 
-  - [Introduction](performance/intro_performance.md)
-  - [N/W Optimizations](performance/network_performance.md)
-  - [Critical Render Path](performance/path_performance.md)
+  - [sub topic 1](media_queries/sub_topic1.md)
+  - [sub topic 2](units/sub_topic2.md)
 
 - [Contributing](contribution/index.md)

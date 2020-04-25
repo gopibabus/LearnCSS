@@ -1,13 +1,17 @@
 <p align="center">
   <img alt="Technology" width="400px" src="/assets/images/tech.png" />
 </p>
-<h2 align="center">Record, Replay, and memorize Technology</h2>
+<h2 align="center">Learn latest features in CSS😉</h2>
 
 ---
 
-## Why Technology?
+## Why CSS?
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus eget nunc scelerisque viverra mauris in aliquam sem. Sit amet est placerat in. Sit amet est placerat in egestas erat imperdiet. Elit at imperdiet dui accumsan sit amet nulla facilisi morbi. Egestas erat imperdiet sed euismod nisi. 
+With CSS, we are able to create rules, and apply those rules to many elements within the website. This approach offers many advantages when site-wide changes are required by a client. Since the content is completely separated from the design, we can make those changes in our Style Sheet and have it effect every applicable instance.
 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
-- Sit amet est placerat in. Sit amet est placerat in egestas erat imperdiet. 
+- CSS Provides Efficiency in Design and Updates
+- CSS Use Can Lead To Faster Page Downloads.
+- CSS is Easy to Work With
+- Avoid duplication
+- Make maintenance easier
+
