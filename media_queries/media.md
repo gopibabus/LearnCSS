@@ -1,6 +1,8 @@
 # 🔥Media Queries
 
-## 🔆Syntax for Media Queries
+<img src="./assets/images/media_queries.png" alt="media queries" width="700px">
+
+## ⚡Syntax for Media Queries
 
 ```css
 /* Smart Phone */
@@ -61,7 +63,7 @@
 
 > [⚽ DEMO](/place/to/media/queries/server)
 
-## 🔆Load Custom CSS with condition
+## ⚡Load Custom CSS with condition
 
 ```html
 <link

@@ -1,11 +1,21 @@
-- CSS Responsive Design
+- HTML
+
+  - [Basics](html/basics.md)
+  - [Advanced](html/advanced.md)
+
+- CSS Basics
+
+  - [Font, Borders & Padding](css_basics/basics1.md)
+  - [Background, Alignment & Positioning](css_basics/basics2.md)
+
+- CSS Intermediate
 
   - [Media Queries](media_queries/media.md)
   - [rem & vh units](units/rem_vh.md)
+  - [Flexbox](flexbox/flexbox.md)
 
-- Intermediate
+- CSS Advanced
 
-  - [sub topic 1](media_queries/sub_topic1.md)
-  - [sub topic 2](units/sub_topic2.md)
+  - [CSS Grid](css_grid/css_grid.md)
 
 - [Contributing](contribution/index.md)
