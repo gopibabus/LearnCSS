@@ -6,7 +6,7 @@
 - CSS Basics
 
   - [CSS Properties and Values](css_basics/essentials.md)
-  - [Pseudo Selectors](css_basics/promo.md)
+  - [Pseudo Selectors](css_basics/pseudo.md)
   - [CSS Box Model](css_basics/box_model.md)
   - [Position](css_basics/promo.md)
   - [Working With Text](css_basics/promo.md)
