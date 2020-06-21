@@ -16,7 +16,7 @@
     <!-- This is for search engines to cache oursite for keywords typed by a user -->
     <meta name="keywords" content="web development, web design">
     <!-- This tag will allow search engines to not cache our website in their search results -->
-    <meta name="robots" content="NOINDEX, NOFOLLOW"> 
+    <meta name="robots" content="NOINDEX, NOFOLLOW">
     <title>Meta Tags</title>
 </head>
 <body>
@@ -49,7 +49,7 @@
 		<p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, optio.
             <!-- This is strong tag -->
-            <strong>This is bold tag</strong>  
+            <strong>This is bold tag</strong>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, optio.
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, optio.
             <!-- This is itallic tag -->
@@ -138,11 +138,11 @@
         <tbody>
             <tr>
                <td>data 1-1</td>
-               <td>data 1-2</td> 
+               <td>data 1-2</td>
             </tr>
             <tr>
                 <td>data 2-1</td>
-                <td>data 2-2</td> 
+                <td>data 2-2</td>
              </tr>
         </tbody>
     </table>
@@ -296,6 +296,8 @@
 
 ## ⚡HTML5 Semantic Tags
 
+?> According to the W3C: "A semantic Web **allows data to be shared and reused** across applications, enterprises, and communities."
+
 ```html
 
 <!DOCTYPE html>
@@ -306,28 +308,131 @@
     <title>HTML5 Semantic Tags</title>
 </head>
 <body>
+    <!-- The <header> element specifies a header for a document or section. -->
     <header>
         <p>This is  head section</p>
     </header>
+    <!-- The <nav> element defines a set of navigation links. -->
     <nav>
         <p>This is navbar section</p>
     </nav>
+    <!-- Specifies the main content of a document -->
     <main>
         <p>This is main content area</p>
+        <!-- The <section> element defines a section in a document. -->
         <section>
             <p>This is a section inside main content area</p>
+            <!-- The <article> element specifies independent, self-contained content. -->
             <article>
                 <p>This is article section inside a section in main content area</p>
             </article>
         </section>
+        <!-- The <aside> element defines some content aside from the content it is placed in (like a sidebar). -->
         <aside>
+            <!-- An image and a caption can be grouped together in a <figure> element. -->
+            <figure>
+                <img src="pic_trulli.jpg" alt="Trulli">
+                <figcaption>Fig1. - Trulli, Puglia, Italy.</figcaption>
+            </figure>
             <p>This is a a sidebar section inside main content area</p>
         </aside>
+        <details>
+            <!-- The <summary> tag defines a visible heading for the <details> element(Drop down).  -->
+            <summary>
+                Epcot Center
+            </summary>
+            <p>
+                Epcot is a theme park at Walt Disney World Resort award-winning fireworks and seasonal special events.
+            </p>
+        </details>
+        <!-- The <time> tag defines a specific time (or datetime). -->
+        <p>I have a date on <time datetime="2020-10-09 20:00">Marriage day</time>.</p>
     </main>
+    <!-- The <footer> element specifies a footer for a document or section. -->
     <footer>
         <p>This is  footer section</p>
     </footer>
     <p style="color: blueviolet;">Contents are aligned properly using CSS</p>
 </body>
 </html>
+```
+
+## ⚡HTML5 Form Elements
+
+```html
+<!-- The <datalist> tag specifies a list of pre-defined options for an <input> element. -->
+<!-- The <datalist> tag is used to provide an "autocomplete" feature for <input> elements.  -->
+
+<label for="browser">Choose your browser from the list:</label>
+<input list="browsers" name="browser" id="browser">
+
+<datalist id="browsers">
+  <option value="Edge">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist>
+```
+
+```html
+<!-- The name attribute specifies the name of a <keygen> element. -->
+<!-- The name attribute of the <keygen> element is used to reference form data after the form has been submitted. -->
+<form action="/action_page.php" method="get">
+  Username: <input type="text" name="usr_name">
+  Encryption: <keygen name="security">
+  <input type="submit">
+</form>
+```
+
+```html
+<!-- The <progress> tag represents the completion progress of a task. -->
+<label for="file">Downloading progress:</label>
+<progress id="file" value="32" max="100"> 32% </progress>
+```
+
+## ⚡HTML5 Input Types and Attributes
+
+| New Input Types | New Input Attributes |
+| --------------- | -------------------- |
+| color           | autocomplete         |
+| date            | autofocus            |
+| datetime        | form                 |
+| datetime-local  | formaction           |
+| email           | formenctype          |
+| month           | formmethod           |
+| number          | formnovalidate       |
+| range           | formtarget           |
+| search          | height and width     |
+| tel             | list                 |
+| time            | min and max          |
+| url             | multiple             |
+| week            | pattern              |
+|                 | placeholder          |
+|                 | required             |
+|                 | step                 |
+
+## ⚡HTML5 Media Elements
+
+```html
+<!-- To play an audio file in HTML, use the <audio> element -->
+<audio controls>
+    <!-- The <source> tag is used to specify multiple media resources for media elements,
+    such as <video>, <audio>, and <picture>. -->
+    <source src="horse.ogg" type="audio/ogg">
+    <source src="horse.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+```
+
+```html
+<!-- he HTML <video> element is used to show a video on a web page. -->
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  <!-- The <track> tag specifies text tracks for <audio> or <video> elements. -->
+  <track src="fgsubtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+  <track src="fgsubtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian">
+Your browser does not support the video tag.
+</video>
 ```

@@ -10,6 +10,7 @@
 }
 #main > pre > code {
 	color: white;
+	font-size: 14px;
 }
 .sidebar,
 .sidebar-toggle {
