@@ -25,16 +25,15 @@
   - [3D Transforms](css_basics/promo.md)
   - [Media Queries](media_queries/media.md)
 
-
-- CSS Advanced
+* CSS Advanced
 
   - [rem & vh units](units/rem_vh.md)
   - [Flex](flexbox/flexbox.md)
   - [CSS Grid](css_grid/css_grid.md)
   - [CSS Sub Grid](css_grid/css_subgrid.md)
 
-- CSS Tricks
+* CSS Tricks
 
   - [Tricks](tricks/index.md)
 
-- [Contributing](contribution/index.md)
+* [Contributing](contribution/index.md)
