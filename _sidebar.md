@@ -34,6 +34,7 @@
 
 * CSS Tricks
 
-  - [Tricks](tricks/index.md)
+  - [Demos](tricks/index.md)
+  - [Tricks](tricks/tricks.md)
 
 * [Contributing](contribution/index.md)

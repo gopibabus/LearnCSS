@@ -1,4 +1,4 @@
-# 🔥CSS Tricks
+# 🔥CSS Trick Demos
 
 ### 😃CSS combinator * + * { }
 
