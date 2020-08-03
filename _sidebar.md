@@ -36,5 +36,6 @@
 
   - [Demos](tricks/index.md)
   - [Tricks](tricks/tricks.md)
+  - [Web Articles](tricks/articles.md)
 
 * [Contributing](contribution/index.md)
