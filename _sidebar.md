@@ -5,9 +5,13 @@
 
 - CSS Basics
 
+  - [Origin of Styles](css_basics/origin.md)
   - [CSS Properties and Values](css_basics/essentials.md)
   - [Pseudo Selectors](css_basics/pseudo.md)
-  - [CSS Box Model](css_basics/box_model.md)
+  - [Box Model](css_basics/box_model.md)
+  - [Inheritance](css_basics/inheritance.md)
+  - [The Cascade](css_basics/cascade.md)
+
   - [Position](css_basics/promo.md)
   - [Working With Text](css_basics/promo.md)
   - [Margin, Rounded Corners, Box Shadow and Z-Index](css_basics/promo.md)
@@ -35,7 +39,8 @@
 * CSS Tricks
 
   - [Demos](tricks/index.md)
-  - [Tricks](tricks/tricks.md)
+  - [Tips](tricks/tricks.md)
   - [Web Articles](tricks/articles.md)
+  - [CSS Tools](tricks/tools.md)
 
 * [Contributing](contribution/index.md)

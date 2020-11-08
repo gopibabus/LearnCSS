@@ -2,6 +2,8 @@
 
 ## ⚡em & rem units
 
+> 💡It is recommended to use rem units than px units because rem units can scale relative to parent elements.
+
 <img src="./assets/images/rem.png" alt="rem" width="700px">
 
 ```css
@@ -38,7 +40,7 @@ html {
 }
 ```
 
-> 💡It is recommended to use rem units than em units for responsive designs and accessibility reasons
+> 💡It is recommended to use rem units than em units for responsive designs and accessibility reasons.
 
 ## ⚡vh & vw units
 
