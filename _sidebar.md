@@ -5,6 +5,7 @@
 
 - CSS Basics
 
+  - [CSS Methodologies](css_basics/methods.md)
   - [Origin of Styles](css_basics/origin.md)
   - [CSS Properties and Values](css_basics/essentials.md)
   - [Pseudo Selectors](css_basics/pseudo.md)
