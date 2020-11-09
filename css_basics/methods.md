@@ -4,8 +4,9 @@ Following are popular Methodologies for organizing CSS:
 
 1. BEM
 2. SMACSS
-3. CSS Modules
-4. Styled Components
+3. Cube CSS
+4. CSS Modules
+5. Styled Components
 
 ## BEM(Block, Element, Modifier)
 
@@ -69,6 +70,17 @@ There are five types of categories:
 [🌍 Reference](https://medium.com/oceanize-geeks/scalable-modular-architecture-for-css-2d7c6c6ffdcd)
 
 [🌍 Official Website](http://smacss.com/)
+
+## Cube CSS (Composition Utility Block)
+
+> **CUBE CSS** takes most of its inspiration from **BEM**. Core of BEM is blocks, whereas with CUBE CSS, the core is CSS.
+
+* **Composition**: These are classes which define the foundational layout, the content skeleton if you will. I imagine this being your grid and flexbox classes.
+* **Utility**: Largely these are just utility classes (.wrapper, .inline, .centre etc.). They do "one thing, and do it well". Makes sense. Not sure I'm a fan of the use of colours as utility glasses; I'd rather use variables for that. In fact, personally I feel like CSS variables are a form of utility class, so would group those two together.
+* **Block**: Pretty much how it is in BEM, a block == a component. Ideally you have very little of these; how you specifically deal with sub-rules is up to you.
+* **Exception**: Exceptions make use of data-attributes. I like that a lot. They let you manipulate blocks, reversing card order (for example) or highlighting a specific card, and they don't leave you fighting the cascade too much.
+
+[🌍 Official Website](https://piccalil.li/blog/cube-css/)
 
 ## CSS Modules
 

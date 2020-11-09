@@ -11,3 +11,7 @@
 ?> 🚀 Never use **id**s in CSS, instead use combination of different **class**es to specify/select elements in DOM.
 
 ---
+
+?> If we need pill shape around any element, assign `border-radius: 100vw;`
+
+---
