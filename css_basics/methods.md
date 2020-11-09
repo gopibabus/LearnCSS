@@ -1,12 +1,16 @@
 # 🔥CSS Methodologies
 
+?> A lot of the ideas that are presented in the following are modular ways to organize your CSS, with variations on how to approach and name your classes.
+
 Following are popular Methodologies for organizing CSS:
 
 1. BEM
 2. SMACSS
 3. Cube CSS
-4. CSS Modules
-5. Styled Components
+4. OOCSS
+5. Atomic CSS
+6. CSS Modules
+7. Styled Components
 
 ## BEM(Block, Element, Modifier)
 
@@ -81,6 +85,20 @@ There are five types of categories:
 * **Exception**: Exceptions make use of data-attributes. I like that a lot. They let you manipulate blocks, reversing card order (for example) or highlighting a specific card, and they don't leave you fighting the cascade too much.
 
 [🌍 Official Website](https://piccalil.li/blog/cube-css/)
+
+## OOCSS (Object Oriented CSS)
+
+> Repeating patterns in your stylesheets lend themselves to the creation of objects which can be sub-typed or super-typed. These patterns can be polymorphic, thus infinitely reusable through inheritance. In a nutshell - object oriented.
+
+[🌍 Reference](https://anotheruiguy.gitbooks.io/sassintherealworld_book-i/content/rules-to-live-by/oocss.html)
+
+## Atomic CSS
+
+> Atomic CSS is for developers who see the benefits of styling "outside of style sheets" — who want to write markup and styles in one place while benefiting from a Atomic architecture. It is a switch of priorities. You don't maintain style sheets but components. Atomic CSS can live side-by-side with traditional style sheets. In cases where Atomic CSS doesn't seem the most pragmatic, you can always supplement with inline styles or external stylesheets. Use the right tool for the job.
+
+?> **Example**: Tailwind CSS
+
+[🌍 Official Website]([link](https://acss.io))
 
 ## CSS Modules
 
