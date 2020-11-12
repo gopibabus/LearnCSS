@@ -15,3 +15,9 @@
 ?> If we need pill shape around any element, assign `border-radius: 100vw;`
 
 ---
+
+?> **Margin** is not part of box-model. Where as **padding and border** are part of box-model
+
+---
+
+?> **"min-height"** plays a major role in vertically centering the content. So consider changing min-height while vertically centering the content.
