@@ -143,11 +143,14 @@ align-content: unset;
 ## ⚡Flex Item Properties
 
 ```css
-/* Evenly distribute items */
+/* Evenly distribute items in a flex container*/
 flex: 1
 
-/* One value, unitless number: flex-grow */
+/* flex item is twice as large as other flex items*/
 flex: 2;
+
+/* flex item is 3 times as large as other flex items*/
+flex: 3;
 
 /* Keyword values */
 flex: auto;
@@ -176,6 +179,58 @@ flex: unset;
 > The flex CSS shorthand property sets how a flex item will grow or shrink to fit the space available in its flex container.
 
 [🌍 Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/flex)
+
+```css
+/* <number> values */
+flex-grow: 3;
+flex-grow: 0.6;
+
+/* Global values */
+flex-grow: inherit;
+flex-grow: initial;
+flex-grow: unset;
+```
+> The flex-grow CSS property sets the flex grow factor of a flex item main size. **flex** property is an alias to **flex-grow** and **flex-shrink**
+
+[🌍 Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow)
+
+```css
+/* <number> values */
+flex-shrink: 2;
+flex-shrink: 0.6;
+
+/* Global values */
+flex-shrink: inherit;
+flex-shrink: initial;
+flex-shrink: unset;
+```
+> The flex-shrink CSS property sets the flex shrink factor of a flex item. If the size of all flex items is larger than the flex container, items shrink to fit according to flex-shrink. In use, flex-shrink is used alongside the other flex properties flex-grow and flex-basis, and normally defined using the flex shorthand.
+
+[🌍 Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink)
+
+```css
+/* Specify <'width'> */
+flex-basis: 10em;
+flex-basis: 3px;
+flex-basis: auto;
+
+/* Intrinsic sizing keywords */
+flex-basis: fill;
+flex-basis: max-content;
+flex-basis: min-content;
+flex-basis: fit-content;
+
+/* Automatically size based on the flex item’s content */
+flex-basis: content;
+
+/* Global values */
+flex-basis: inherit;
+flex-basis: initial;
+flex-basis: unset;
+```
+> The flex-basis CSS property **sets the initial main size** of a flex item. It sets the size of the content box unless otherwise set with box-sizing. In case both flex-basis (other than auto) and width (or height in case of flex-direction: column) are set for an element, flex-basis has priority.
+
+[🌍 Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-basis)
 
 ```css
 /* <integer> values */
